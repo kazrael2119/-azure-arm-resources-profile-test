@@ -1,5 +1,5 @@
 import { DefaultAzureCredential } from "@azure/identity";
-import {ResourceManagementClient } from "@azure/arm-resources-profile-hybrid-2019-03-01";
+import {ResourceManagementClient } from "@azure/arm-resources-profile-2020-09-01-hybrid";
 
 const subscriptionId = process.env.SUBSCRIPTION_ID||'';//run npm i --save-dev @types/node
 const credential = new DefaultAzureCredential();
